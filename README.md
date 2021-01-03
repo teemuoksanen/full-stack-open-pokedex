@@ -14,4 +14,4 @@ Start by running `npm install` inside the project folder
 `npm run build` to make a production build
 `npm run start-prod` to run your production build
 
-*Pull requests are now checked with GitHub Actions.*
+*Pull requests are now checked with GitHub Actions. Deployment is made after merge.*
