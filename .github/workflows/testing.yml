@@ -19,7 +19,7 @@ jobs:
           COMMITS: ${{ toJson(github.event.commits) }}
         run: echo "$COMMITS"
       - name: commit messages
+        if: ${{ contains(github.event.commits.*.message, '#skip') == false }}
         env:
           COMMIT_MESSAGES: ${{ toJson(github.event.commits.*.message) }}
         run: echo "$COMMIT_MESSAGES"
-        if: ${{ contains(github.event.commits.*.message, '#skip') == false }}
