@@ -1,1 +1,1 @@
-web: npm run start-error
+web: npm run start-build
