@@ -25,5 +25,5 @@ jobs:
       - name: skipping?
         env:
           COMMIT_MESSAGES: ${{ toJson(github.event.commits.*.message) }}
-        if: ${{ contains(COMMIT_MESSAGES, '#skip') == false }}
+        if: ${{ contains($COMMIT_MESSAGES, '#skip') == false }}
         run: echo "Not skipped"
