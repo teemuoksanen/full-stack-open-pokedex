@@ -34,3 +34,4 @@ jobs:
           heroku_email: "heroku@teemuoksanen.fi"
           healthcheck: "https://pokedex-teusa.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
