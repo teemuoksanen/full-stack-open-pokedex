@@ -2,4 +2,4 @@
 
 This repository is used for the CI/CD module of the Full stack open course.
 
-*For testing purposes.*
+Exercise 11.20: https://github.com/teemuoksanen/bloglist-cicd
